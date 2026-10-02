@@ -1,14 +1,5 @@
 [
   {
-    "slug": "hayatimda-yeni-bir-donem",
-    "title": "Hayatımda Yeni Bir Dönem",
-    "date": "2026-09-26",
-    "category": "Hayat",
-    "excerpt": "Bazı değişiklikler sessizce gelir. Bu yazıda son birkaç ayda hayatımda nelerin değiştiğini anlatıyorum.",
-    "cover": "images/blog/hayatimda-yeni-bir-donem.jpg",
-    "body": "Bu bir örnek yazıdır. Admin panelinden bu yazıyı düzenleyebilir, silebilir ya da yerine kendi yazını ekleyebilirsin.\n\n## Nereden başladı?\n\nUzun zamandır düşüncelerimi bir yerde toplamak istiyordum. Defterlere yazdım, telefon notlarına yazdım ama hepsi dağınık kaldı. Sonunda **kendime ait bir köşe** açmaya karar verdim.\n\n> Küçük adımlar, büyük değişikliklerin başlangıcıdır.\n\n## Neler paylaşacağım?\n\n- Öğrendiğim şeyler\n- Gündelik hayatımdan küçük anlar\n- Okuduğum kitaplar ve izlediğim filmler\n- Hedeflerim ve bu hedeflere nasıl yaklaştığım\n\n## Son söz\n\nBu yazıyı okuduğun için teşekkür ederim. Yeni yazılarda görüşmek üzere."
-  },
-  {
     "slug": "son-zamanlarda-ogrendigim-5-sey",
     "title": "Son Zamanlarda Öğrendiğim 5 Şey",
     "date": "2026-09-18",
