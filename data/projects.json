@@ -1,0 +1,37 @@
+[
+  {
+    "id": "p1",
+    "title": "Kişisel web sitem",
+    "description": "Şu an baktığın site. Yazılarımı, fotoğraflarımı ve notlarımı tek bir yerde topladığım kişisel alanım.",
+    "image": "images/projects/proje-1.jpg",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "GitHub Pages"
+    ],
+    "link": "https://github.com/dilaraerdal"
+  },
+  {
+    "id": "p2",
+    "title": "Okuma listesi",
+    "description": "Okuduğum kitapları, aldığım notları ve sevdiğim alıntıları takip ettiğim küçük bir proje.",
+    "image": "images/projects/proje-2.jpg",
+    "tech": [
+      "Notion",
+      "Tasarım"
+    ],
+    "link": ""
+  },
+  {
+    "id": "p3",
+    "title": "Fotoğraf serisi",
+    "description": "Bir yıl boyunca her hafta aynı pencereden çektiğim fotoğraflardan oluşan seri.",
+    "image": "images/projects/proje-3.jpg",
+    "tech": [
+      "Fotoğrafçılık",
+      "Lightroom"
+    ],
+    "link": ""
+  }
+]

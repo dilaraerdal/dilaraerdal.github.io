@@ -1,0 +1,90 @@
+/* =========================================================
+   DİLARA - Ekran boyutlarına göre düzen
+   ========================================================= */
+
+/* Tablet ve küçük laptop */
+@media (max-width: 1024px) {
+  .post-grid { grid-template-columns: repeat(2, 1fr); }
+  .nav-list a { padding: 8px 9px; font-size: .92rem; }
+}
+
+/* Menü bu genişliğin altında hamburger'e dönüşür */
+@media (max-width: 900px) {
+  .menu-toggle { display: grid; }
+
+  .site-nav {
+    position: fixed; inset: 0; z-index: -1;
+    background: var(--paper);
+    padding: calc(var(--header-h) + env(safe-area-inset-top, 0px) + 24px) 24px calc(32px + env(safe-area-inset-bottom, 0px));
+    opacity: 0; visibility: hidden;
+    transition: opacity .25s ease, visibility .25s;
+    overflow-y: auto;
+  }
+  .menu-open .site-nav { opacity: 1; visibility: visible; }
+  .menu-open { overflow: hidden; }
+  /* backdrop-filter açıkken sabit menü header içine hapsolur; menü açıkken kapatılır */
+  .menu-open .site-header { background: var(--paper); -webkit-backdrop-filter: none; backdrop-filter: none; }
+
+  .nav-list { flex-direction: column; gap: 4px; }
+  .nav-list a {
+    font-family: var(--font-display); font-size: 2rem; padding: 10px 16px; border-radius: 16px;
+  }
+
+  .hero { padding: 32px 0 72px; }
+  .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+  .hero-visual { width: min(78%, 320px); order: -1; }
+
+  .about-grid { grid-template-columns: 1fr; gap: 40px; }
+  .about-photo { position: static; max-width: 340px; }
+
+  .project { grid-template-columns: 1fr; }
+  .project:nth-child(even) .project__img { order: 0; }
+  .project__img { aspect-ratio: 16 / 10; min-height: 0; }
+  .project__body { padding: 28px; }
+}
+
+/* Telefon */
+@media (max-width: 640px) {
+  :root { --header-h: 60px; }
+  body { font-size: 1rem; }
+  .container { padding: 0 20px; }
+  .section { padding: 64px 0; }
+  .section-head { flex-direction: column; align-items: start; }
+  .page-hero { padding: 40px 0 24px; }
+
+  .post-grid, .home-notes { grid-template-columns: 1fr; gap: 20px; }
+
+  .hero-visual { width: min(64%, 260px); justify-self: start; }
+  .hero-text { font-size: 1.08rem; }
+  .hero-actions .btn { flex: 1 1 auto; }
+
+  .toolbar { flex-direction: column; align-items: stretch; }
+  .chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 6px; margin: 0 -20px; padding-left: 20px; padding-right: 20px; scrollbar-width: none; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: 0 0 auto; }
+  .search { min-width: 0; width: 100%; }
+
+  .gallery-grid { columns: 2 140px; column-gap: 10px; }
+  .gallery-item { margin-bottom: 10px; }
+  .gallery-item figcaption { display: none; }
+  .lightbox-stage { padding: 0 8px; }
+  .lb-prev, .lb-next { top: auto; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); transform: none; }
+
+  .note { grid-template-columns: 48px 1fr; padding: 18px; gap: 14px; }
+  .note-date strong { font-size: 1.6rem; }
+
+  .article-head { padding: 36px 0 24px; }
+  .article-cover { border-radius: 0; margin-left: -20px; margin-right: -20px; margin-bottom: 32px; }
+  .prose { font-size: 1.05rem; }
+  .post-nav { grid-template-columns: 1fr; }
+  .post-nav .next { grid-column: 1; }
+
+  .footer-inner { flex-direction: column; align-items: start; }
+}
+
+/* Çok küçük ekranlar (iPhone SE vb.) */
+@media (max-width: 380px) {
+  .brand { font-size: 1.1rem; letter-spacing: .16em; }
+  .icon-btn { width: 40px; height: 40px; }
+  .nav-list a { font-size: 1.7rem; }
+}

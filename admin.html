@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yönetim | Dilara</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400..600,0..100&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/admin.css">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body class="admin">
+
+<!-- GİRİŞ -->
+<section class="login" id="login-view">
+  <form class="login-card" id="login-form" autocomplete="off">
+    <p class="brand">DİLARA</p>
+    <h1>Yönetim paneli</h1>
+    <p class="muted">Değişiklikler doğrudan GitHub deponda kaydedilir ve site yaklaşık 1 dakika içinde güncellenir.</p>
+
+    <label class="field"><span>GitHub kullanıcı adı</span><input id="l-owner" required placeholder="dilaraerdal" autocapitalize="off" spellcheck="false"></label>
+    <label class="field"><span>Depo adı</span><input id="l-repo" required placeholder="dilaraerdal.github.io" autocapitalize="off" spellcheck="false"></label>
+    <label class="field"><span>Dal (branch)</span><input id="l-branch" required value="main" autocapitalize="off" spellcheck="false"></label>
+    <label class="field"><span>Erişim anahtarı (token)</span><input id="l-token" type="password" required placeholder="github_pat_..." autocapitalize="off" spellcheck="false"></label>
+    <label class="check"><input type="checkbox" id="l-remember"> Bu cihazda beni hatırla</label>
+
+    <button class="btn btn--dark" type="submit">Giriş yap</button>
+    <p class="form-error" id="login-error" role="alert"></p>
+
+    <details class="help">
+      <summary>Erişim anahtarını nasıl alırım?</summary>
+      <ol>
+        <li><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub'da yeni anahtar sayfasını</a> aç.</li>
+        <li>Bir isim ver (örneğin "Site paneli") ve süre olarak 1 yıl seç.</li>
+        <li>Repository access bölümünde "Only select repositories" seçip sitenin deposunu işaretle.</li>
+        <li>Permissions altında "Contents" iznini "Read and write" yap.</li>
+        <li>"Generate token" ile oluştur, kopyala ve buraya yapıştır. Anahtarı kimseyle paylaşma.</li>
+      </ol>
+    </details>
+  </form>
+</section>
+
+<!-- PANEL -->
+<div class="panel" id="panel-view" hidden>
+  <header class="admin-bar">
+    <div class="admin-bar__inner">
+      <p class="brand">DİLARA <small>yönetim</small></p>
+      <div class="admin-bar__actions">
+        <a class="btn btn--ghost btn--sm" href="index.html" target="_blank" rel="noopener">Siteyi aç</a>
+        <button class="btn btn--ghost btn--sm" type="button" id="logout">Çıkış</button>
+      </div>
+    </div>
+    <nav class="tabs" id="tabs" aria-label="Yönetim bölümleri">
+      <button type="button" class="chip" data-tab="posts" aria-pressed="true">Yazılar</button>
+      <button type="button" class="chip" data-tab="notes" aria-pressed="false">Notlar</button>
+      <button type="button" class="chip" data-tab="gallery" aria-pressed="false">Galeri</button>
+      <button type="button" class="chip" data-tab="projects" aria-pressed="false">Projeler</button>
+      <button type="button" class="chip" data-tab="general" aria-pressed="false">Genel bilgiler</button>
+    </nav>
+  </header>
+  <main class="admin-main" id="admin-main"></main>
+</div>
+
+<div class="busy" id="busy" hidden><div class="busy-card"><div class="spinner" aria-hidden="true"></div><p id="busy-text">Kaydediliyor</p></div></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/post-template.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

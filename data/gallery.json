@@ -1,0 +1,74 @@
+[
+  {
+    "id": "g1",
+    "src": "images/gallery/foto-01.jpg",
+    "category": "Ben",
+    "caption": "Sonbahar sabahı"
+  },
+  {
+    "id": "g2",
+    "src": "images/gallery/foto-02.jpg",
+    "category": "Günlük Hayat",
+    "caption": "Masamın hali"
+  },
+  {
+    "id": "g3",
+    "src": "images/gallery/foto-03.jpg",
+    "category": "Geziler",
+    "caption": "Sahil yürüyüşü"
+  },
+  {
+    "id": "g4",
+    "src": "images/gallery/foto-04.jpg",
+    "category": "Anılar",
+    "caption": "Eski bir fotoğraf"
+  },
+  {
+    "id": "g5",
+    "src": "images/gallery/foto-05.jpg",
+    "category": "Sevdiğim Yerler",
+    "caption": "En sevdiğim kafe"
+  },
+  {
+    "id": "g6",
+    "src": "images/gallery/foto-06.jpg",
+    "category": "Diğer",
+    "caption": "Pencere kenarı"
+  },
+  {
+    "id": "g7",
+    "src": "images/gallery/foto-07.jpg",
+    "category": "Ben",
+    "caption": "Kendi portrem"
+  },
+  {
+    "id": "g8",
+    "src": "images/gallery/foto-08.jpg",
+    "category": "Günlük Hayat",
+    "caption": "Pazar kahvaltısı"
+  },
+  {
+    "id": "g9",
+    "src": "images/gallery/foto-09.jpg",
+    "category": "Geziler",
+    "caption": "Tren yolculuğu"
+  },
+  {
+    "id": "g10",
+    "src": "images/gallery/foto-10.jpg",
+    "category": "Anılar",
+    "caption": "Doğum günü"
+  },
+  {
+    "id": "g11",
+    "src": "images/gallery/foto-11.jpg",
+    "category": "Sevdiğim Yerler",
+    "caption": "Kütüphane köşesi"
+  },
+  {
+    "id": "g12",
+    "src": "images/gallery/foto-12.jpg",
+    "category": "Diğer",
+    "caption": "Gün batımı"
+  }
+]

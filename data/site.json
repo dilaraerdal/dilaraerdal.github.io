@@ -1,0 +1,32 @@
+{
+  "siteUrl": "https://dilaraerdal.github.io",
+  "name": "Dilara",
+  "brand": "DİLARA",
+  "slogan": "Benim dünyam, düşüncelerim ve hikâyelerim.",
+  "googleVerification": "",
+  "hero": {
+    "greeting": "Merhaba, ben",
+    "text": "Kendi dünyamı, öğrendiklerimi, deneyimlerimi ve sevdiğim şeyleri burada paylaşıyorum."
+  },
+  "about": {
+    "photo": "images/profil.jpg",
+    "heading": "Ben kimim?",
+    "text": "Merhaba, ben Dilara. Hayatımda ilgimi çeken şeyleri öğrenmeyi, yeni şeyler denemeyi ve öğrendiklerimi paylaşmayı seviyorum.\n\nBu siteyi kendime ait küçük bir köşe olsun diye kurdum. Burada yazılarımı, fotoğraflarımı, üzerinde çalıştığım şeyleri ve aklımdan geçen kısa notları bulabilirsin.",
+    "sections": [
+      { "title": "İlgi alanlarım", "items": ["Tasarım", "Kitaplar", "Fotoğrafçılık", "Teknoloji"] },
+      { "title": "Sevdiğim şeyler", "items": ["Sabah kahvesi", "Uzun yürüyüşler", "Sessiz kafeler", "Yağmurlu günler"] },
+      { "title": "Öğrenmek istediğim şeyler", "items": ["Web geliştirme", "Yeni bir dil", "Resim yapmak"] },
+      { "title": "Hedeflerim", "items": ["Her ay bir yazı yayınlamak", "Yılda 24 kitap okumak", "Yeni bir şehir görmek"] },
+      { "title": "Hobilerim", "items": ["Günlük tutmak", "Film izlemek", "Yemek yapmak"] }
+    ]
+  },
+  "contact": {
+    "intro": "Bir şey sormak, bir yazım hakkında konuşmak ya da sadece merhaba demek istersen bana buradan ulaşabilirsin.",
+    "email": "merhaba@ornek.com",
+    "links": [
+      { "label": "Instagram", "url": "https://instagram.com/kullaniciadi" },
+      { "label": "GitHub", "url": "https://github.com/dilaraerdal" },
+      { "label": "Pinterest", "url": "https://pinterest.com/kullaniciadi" }
+    ]
+  }
+}

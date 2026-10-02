@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Galeri | Dilara</title>
+<meta name="description" content="Dilara'nın fotoğrafları: günlük hayat, geziler, anılar ve sevdiği yerler.">
+<link rel="canonical" href="https://dilaraerdal.github.io/gallery.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dilara">
+<meta property="og:title" content="Galeri | Dilara">
+<meta property="og:description" content="Dilara'nın fotoğrafları: günlük hayat, geziler, anılar ve sevdiği yerler.">
+<meta property="og:url" content="https://dilaraerdal.github.io/gallery.html">
+<meta property="og:image" content="https://dilaraerdal.github.io/images/og-image.jpg">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FBFAF7">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400..600,0..100&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body data-page="gallery">
+<a class="skip-link" href="#icerik">İçeriğe geç</a>
+<div id="site-header"></div>
+<main id="icerik">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Galeri</h1>
+      <p>Anılarımdan, gezdiğim yerlerden ve gündelik hayatımdan kareler.</p>
+    </div>
+  </section>
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="toolbar"><div class="chips" id="gallery-filters" role="group" aria-label="Kategoriye göre filtrele"></div></div>
+      <div class="gallery-grid" id="gallery-grid"></div>
+    </div>
+  </section>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Fotoğraf görüntüleyici" aria-hidden="true">
+    <div class="lightbox-top"><span class="lb-count"></span><button class="lb-btn lb-close" type="button" aria-label="Kapat">✕</button></div>
+    <div class="lightbox-stage"><img src="" alt=""></div>
+    <p class="lightbox-caption"></p>
+    <button class="lb-btn lb-prev" type="button" aria-label="Önceki fotoğraf">‹</button>
+    <button class="lb-btn lb-next" type="button" aria-label="Sonraki fotoğraf">›</button>
+  </div>
+</main>
+<div id="site-footer"></div>
+<script src="js/post-template.js"></script>
+<script src="js/main.js"></script>
+<script src="js/gallery.js"></script>
+</body>
+</html>

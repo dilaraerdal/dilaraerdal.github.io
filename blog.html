@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Blog | Dilara</title>
+<meta name="description" content="Dilara'nın kişisel blogu: öğrendikleri, deneyimleri, hedefleri ve gündelik hayatından yazılar.">
+<link rel="canonical" href="https://dilaraerdal.github.io/blog.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dilara">
+<meta property="og:title" content="Blog | Dilara">
+<meta property="og:description" content="Dilara'nın kişisel blogu: öğrendikleri, deneyimleri, hedefleri ve gündelik hayatından yazılar.">
+<meta property="og:url" content="https://dilaraerdal.github.io/blog.html">
+<meta property="og:image" content="https://dilaraerdal.github.io/images/og-image.jpg">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FBFAF7">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400..600,0..100&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body data-page="blog">
+<a class="skip-link" href="#icerik">İçeriğe geç</a>
+<div id="site-header"></div>
+<main id="icerik">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Blog</h1>
+      <p>Öğrendiklerim, düşündüklerim ve hayatımdan küçük hikâyeler.</p>
+    </div>
+  </section>
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="toolbar">
+        <div class="chips" id="post-filters" role="group" aria-label="Kategoriye göre filtrele"></div>
+        <label class="visually-hidden" for="post-search">Yazılarda ara</label>
+        <input class="search" id="post-search" type="search" placeholder="Yazılarda ara" autocomplete="off">
+      </div>
+      <div class="post-grid" id="post-list" aria-live="polite"></div>
+    </div>
+  </section>
+</main>
+<div id="site-footer"></div>
+<script src="js/post-template.js"></script>
+<script src="js/main.js"></script>
+<script src="js/blog.js"></script>
+</body>
+</html>
