@@ -9,24 +9,58 @@
     "text": "Kendi dünyamı, öğrendiklerimi, deneyimlerimi ve sevdiğim şeyleri burada paylaşıyorum."
   },
   "about": {
-    "photo": "images/profil.jpg",
+    "photo": "images/uploads/20261003-profil-l9ut.jpg",
     "heading": "Ben kimim?",
-    "text": "Merhaba, ben Dilara. Hayatımda ilgimi çeken şeyleri öğrenmeyi, yeni şeyler denemeyi ve öğrendiklerimi paylaşmayı seviyorum.\n\nBu siteyi kendime ait küçük bir köşe olsun diye kurdum. Burada yazılarımı, fotoğraflarımı, üzerinde çalıştığım şeyleri ve aklımdan geçen kısa notları bulabilirsin.",
+    "text": "Merhaba, ben Dilara Erdal.\n\nKendimi tek bir meslekle ya da tek bir unvanla tanımlamayı sevmiyorum. Çünkü ben biraz öğrenerek, deneyerek ve üreterek kendini geliştiren insanlardanım.\n\nBilgisayar Programcılığı eğitimiyle başlayan teknoloji merakım, zamanla farklı alanlara olan ilgimle birleşti. Özellikle muhasebe alanında çalışmaya başladıkça, sadece işi yapmak değil, yaptığım işi daha iyi anlamak ve mümkün olduğunca kolaylaştırmak istemeye başladım.\n\nŞu anda muhasebe ve ön muhasebe alanında kendimi geliştirirken aynı zamanda Excel, VBA, SQL ve yazılım geliştirme gibi konularla ilgileniyorum. İş hayatında karşıma çıkan bir problemi sadece çözmek yerine, “Bunu daha pratik nasıl yapabilirim?” diye düşünmeyi seviyorum.\n\nBu merak beni kendi projelerimi geliştirmeye yöneltti. Muhasebe süreçlerini daha düzenli hale getirebilecek tablolar, takip sistemleri ve kendi ihtiyaçlarıma göre şekillendirdiğim uygulamalar üzerinde çalışıyorum. Bir yandan muhasebeyi öğrenirken bir yandan da öğrendiklerimi teknolojiyle birleştirmeye çalışıyorum.\n\nBu web sitesini de tam olarak bunun için oluşturdum.\n\nBurada yalnızca yaptıklarımı değil, öğrendiklerimi, araştırdıklarımı, denediklerimi ve zaman içinde nasıl geliştiğimi de paylaşmak istiyorum. Bazen bir muhasebe hesabının mantığını, bazen Excel’de hazırladığım bir sistemi, bazen de üzerinde çalıştığım bir yazılım projesini burada bulabilirsiniz.\n\nBenim için öğrenmek, bir şeyi ezberlemekten çok onun mantığını anlamak demek. Bu yüzden karşıma çıkan konuları mümkün olduğunca temelden öğrenmeye ve öğrendiklerimi kendi yöntemimle yeniden şekillendirmeye çalışıyorum.\n\nHenüz yolun başında olduğumu biliyorum. Ama zaten bu sitenin amacı da kusursuz olduğumu göstermek değil; öğrenen, üreten ve gelişen bir insanın yolculuğunu paylaşmak.\n\nKısacası burası benim küçük dijital alanım.\n\nBenim öğrendiklerim, ürettiklerim, merak ettiklerim ve zamanla dönüşen hikâyem.\n\nHoş geldin.",
     "sections": [
-      { "title": "İlgi alanlarım", "items": ["Tasarım", "Kitaplar", "Fotoğrafçılık", "Teknoloji"] },
-      { "title": "Sevdiğim şeyler", "items": ["Sabah kahvesi", "Uzun yürüyüşler", "Sessiz kafeler", "Yağmurlu günler"] },
-      { "title": "Öğrenmek istediğim şeyler", "items": ["Web geliştirme", "Yeni bir dil", "Resim yapmak"] },
-      { "title": "Hedeflerim", "items": ["Her ay bir yazı yayınlamak", "Yılda 24 kitap okumak", "Yeni bir şehir görmek"] },
-      { "title": "Hobilerim", "items": ["Günlük tutmak", "Film izlemek", "Yemek yapmak"] }
+      {
+        "title": "İlgi alanlarım",
+        "items": [
+          "Resim",
+          "Kitaplar",
+          "Yeni şeyler öğrenmek",
+          "Film"
+        ]
+      },
+      {
+        "title": "Sevdiğim şeyler",
+        "items": [
+          "Fitness",
+          "Uyumak :)",
+          "Sessizlik",
+          "Yağmurlu günler"
+        ]
+      },
+      {
+        "title": "Öğrenmek istediğim şeyler",
+        "items": [
+          "Muhasebe ve Sgk"
+        ]
+      },
+      {
+        "title": "Hedeflerim",
+        "items": [
+          "Her ay bir yazı yayınlamak"
+        ]
+      },
+      {
+        "title": "Hobilerim",
+        "items": [
+          "Günlük tutmak",
+          "Film izlemek",
+          "Yemek yemek"
+        ]
+      }
     ]
   },
   "contact": {
     "intro": "Bir şey sormak, bir yazım hakkında konuşmak ya da sadece merhaba demek istersen bana buradan ulaşabilirsin.",
     "email": "merhaba@ornek.com",
     "links": [
-      { "label": "Instagram", "url": "https://instagram.com/kullaniciadi" },
-      { "label": "GitHub", "url": "https://github.com/dilaraerdal" },
-      { "label": "Pinterest", "url": "https://pinterest.com/kullaniciadi" }
+      {
+        "label": "Instagram",
+        "url": "https://instagram.com/dilarerdal"
+      }
     ]
   }
 }
